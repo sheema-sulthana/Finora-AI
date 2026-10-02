@@ -1,766 +1,868 @@
-<div align="center">
+\# 💰 Finora AI – Intelligent Personal Finance Platform
 
-💎 Finora AI
+\## 📖 Overview
 
-Manage Your Money Smarter with AI
+Finora AI is an AI-powered personal finance platform designed to help users understand, manage, and improve their financial habits.
 
-An intelligent personal finance companion for tracking, understanding, and managing your financial life.
+The platform combines intelligent financial analysis, expense tracking, budgeting, data visualization, and AI-powered financial guidance into a single modern application.
 
-<br>
+Finora AI allows users to securely manage their financial information, analyze spending patterns, monitor income and expenses, and receive personalized insights using Google Gemini AI.
 
+The platform is designed for students, professionals, freelancers, families, and anyone who wants to make smarter financial decisions.
 
+\---
 
+\# 🚀 Live Demo
 
+🌐 \*\*Live Application:\*\* &#x20;
+[https://finora-ai-tan.vercel.app/](https://finora-ai-tan.vercel.app/)
 
+💻 \*\*GitHub Repository:\*\* &#x20;
+https://github.com/sheema-sulthana/Finora-AI
 
+\---
 
+\# ✨ Features
 
+\### 🔐 Authentication
 
-</div>
+\- User Registration
+\- Secure Login
+\- Logout
+\- Session Management
+\- Google OAuth Login
+\- Supabase Authentication
+\- Protected application routes
 
-<div align="center">
+\---
 
-💰 TRACK → 📊 UNDERSTAND → 🤖 ASK AI → 💡 GET INSIGHTS → 🎯 PLAN BETTER
+\### 🤖 AI Financial Assistant
 
-</div>
+Finora AI uses Google Gemini AI to provide intelligent financial assistance.
 
-🌌 What is Finora AI?
+Features include:
 
-Finora AI is a modern AI-powered personal finance platform that brings financial organization, analytics, authentication, and AI assistance into one unified experience.
+\- AI-powered financial conversations
+\- Personalized financial insights
+\- Spending analysis
+\- Budget suggestions
+\- Saving recommendations
+\- Financial habit analysis
+\- Natural-language financial guidance
 
-Instead of treating financial information as disconnected numbers, Finora AI is designed around a simple idea:
+\---
 
-Make your money easier to understand.
+\### 📊 Financial Dashboard
 
-Whether you're a student managing monthly expenses, an employee monitoring spending, a freelancer organizing finances, or simply someone who wants a clearer financial overview, Finora AI provides a centralized environment to explore your financial information.
+The dashboard provides a centralized overview of the user's financial activity.
 
-🚀 Try Finora AI
+Includes:
 
-<div align="center">
+\- Total Balance
+\- Income Overview
+\- Expense Overview
+\- Savings
+\- Budget Progress
+\- Financial Health Information
+\- Recent Transactions
+\- Spending Analytics
 
-🌐 Live Production Application
+\---
 
-✨ OPEN FINORA AI
+\### 💰 Income & Expense Tracking
 
-https://finora-ai-tan.vercel.app/
+Users can manage their financial transactions and understand where their money is going.
 
-<br>
+Features include:
 
-🔐 Google Authentication Enabled
-☁️ Production Deployed on Vercel
-⚡ Connected to Supabase
-🤖 Gemini AI Integration
+\- Add income
+\- Add expenses
+\- Categorize transactions
+\- Track spending
+\- View transaction history
+\- Monitor financial activity
 
-</div>
+\---
 
-✨ Why Finora AI?
+\### 📈 Financial Analytics
 
-🧠 Intelligence
+Finora AI provides visual representations of financial data.
 
-📊 Visibility
+Includes:
 
-🔐 Security
+\- Expense charts
+\- Income charts
+\- Spending trends
+\- Category-based analysis
+\- Monthly financial summaries
+\- Savings analysis
+\- Interactive data visualization
 
-⚡ Experience
+\---
 
-AI-assisted financial interaction
+\### 🧠 Smart Financial Insights
 
-Financial dashboards & analytics
+The platform analyzes financial information and provides meaningful insights such as:
 
-Supabase authentication
+\- Spending patterns
+\- High-expense categories
+\- Saving opportunities
+\- Budget performance
+\- Monthly financial trends
+\- Personalized recommendations
 
-Modern responsive UI
+\---
 
-Gemini-powered assistance
+\### 📄 Financial Data Upload
 
-Visual summaries
+Finora AI supports financial data processing workflows for:
 
-OAuth support
+\- Bank statements
+\- CSV files
+\- Receipt images
+\- Screenshots
+\- Financial documents
 
-Fast web experience
+Uploaded information can be processed and analyzed to help organize financial activity.
 
-Natural-language questions
+\---
 
-Spending insights
+\### 💬 AI Financial Coach
 
-Environment-based secrets
+The AI Financial Coach provides a conversational interface where users can ask questions about their finances.
 
-Desktop & mobile friendly
+Example questions:
 
-💫 Core Features
+\- "How can I reduce my monthly expenses?"
+\- "Where am I spending the most?"
+\- "How much should I save every month?"
+\- "How can I improve my budget?"
+\- "What are my biggest spending categories?"
 
-💰 Smart Financial Management
+\---
 
-Organize your financial information in one place.
+\### 📱 Responsive Design
 
-Income information
+Finora AI is designed to work across different screen sizes.
 
-Expense tracking
+Supported layouts include:
 
-Financial summaries
+\- Desktop
+\- Laptop
+\- Tablet
+\- Mobile
 
-Spending information
+The interface uses a modern fintech-inspired design with responsive components and smooth interactions.
 
-Personal finance overview
+\---
 
-Centralized financial management
+\### 🎨 Modern UI / UX
 
-🤖 AI-Powered Financial Assistant
+The application includes:
 
-Interact with your financial information using an AI-assisted experience powered by Gemini.
+\- Premium dark theme
+\- Glassmorphism
+\- Gradient effects
+\- Animated interfaces
+\- Interactive cards
+\- Smooth transitions
+\- Responsive navigation
+\- Modern typography
+\- Financial dashboard components
 
-Designed for:
+\---
 
-Financial questions
+\# 🛠 Technology Stack
 
-Simplifying financial concepts
+\## Frontend
 
-Understanding spending information
+\- React
+\- TypeScript
+\- TanStack Start
+\- TanStack Router
+\- Tailwind CSS
+\- Vite
+\- HTML5
+\- CSS3
+\- JavaScript
 
-Generating useful insights
+\---
 
-Natural-language interaction
+\## AI
 
-AI responses are informational and should be independently verified before making important financial decisions.
+\- Google Gemini AI
+\- \`@google/genai\`
 
-📊 Intelligent Dashboard
+Gemini AI is used for intelligent financial assistance, financial analysis, and personalized recommendations.
 
-A centralized dashboard brings important information together through:
+\---
 
-Summary cards
+\## Backend & Data
 
-Financial metrics
+\- Supabase
+\- Supabase Database
+\- Supabase Authentication
+\- Supabase JavaScript Client
 
-Charts
+\---
 
-Spending information
+\## Authentication
 
-Financial activity
+\- Supabase Auth
+\- Google OAuth 2.0
+\- Session-based authentication
 
-Visual insights
+\---
 
-🔐 Secure Authentication
+\## Data Visualization
 
-Finora AI uses Supabase Authentication.
+\- Recharts
+\- Interactive charts
+\- Financial analytics
+\- Spending visualizations
 
-Supported authentication experience includes:
+\---
 
-Account registration
+\## State & Data Management
 
-Login
+\- TanStack React Query
+\- React Hooks
+\- Application state management
 
-Google OAuth
+\---
 
-Session management
+\## Styling
 
-Production authentication
+\- Tailwind CSS
+\- Custom CSS
+\- Glassmorphism UI
+\- Responsive layouts
+\- Animated components
 
-Secure OAuth redirect handling
+\---
 
-🎨 Modern Responsive Experience
+\## Development Tools
 
-The interface is designed around a clean, modern financial dashboard experience.
+\- Node.js
+\- npm
+\- Vite
+\- ESLint
+\- Prettier
+\- TypeScript
 
-Responsive layout
+\---
 
-Modern cards
+\## Deployment
 
-Interactive components
+\- Vercel
+\- GitHub
 
-Tailwind CSS styling
+\---
 
-Desktop support
+\# 📂 Project Structure
 
-Tablet support
-
-Mobile-friendly experience
-
-🧠 Finora AI Experience
-
-                   ┌─────────────────┐
-                   │      USER       │
-                   └────────┬────────┘
-                            │
-                            ▼
-                   ┌─────────────────┐
-                   │   FINORA AI     │
-                   │   DASHBOARD     │
-                   └────────┬────────┘
-                            │
-              ┌─────────────┼─────────────┐
-              │             │             │
-              ▼             ▼             ▼
-        ┌──────────┐  ┌───────────┐  ┌───────────┐
-        │ FINANCE  │  │ ANALYTICS │  │  AI CHAT  │
-        │   DATA   │  │ & CHARTS  │  │  GEMINI   │
-        └────┬─────┘  └─────┬─────┘  └─────┬─────┘
-             │              │              │
-             └──────────────┼──────────────┘
-                            ▼
-                   ┌─────────────────┐
-                   │    INSIGHTS     │
-                   └────────┬────────┘
-                            ▼
-                   ┌─────────────────┐
-                   │ BETTER FINANCE  │
-                   │   MANAGEMENT    │
-                   └─────────────────┘
-
-🏗️ Technology Stack
-
-<div align="center">
-
-Layer
-
-Technology
-
-🎨 Frontend
-
-React + TypeScript
-
-⚡ Framework
-
-TanStack Start
-
-🧭 Routing
-
-TanStack Router
-
-🎨 Styling
-
-Tailwind CSS
-
-🧠 AI
-
-Google Gemini
-
-🔑 Authentication
-
-Supabase Auth
-
-☁️ Backend Services
-
-Supabase
-
-📡 Data Fetching
-
-TanStack React Query
-
-📈 Charts
-
-Recharts
-
-🛠️ Build Tool
-
-Vite
-
-🚀 Deployment
-
-Vercel
-
-📦 Package Manager
-
-npm
-
-</div>
-
-🏛️ Architecture
-
-                         ┌──────────────────────┐
-                         │        USER          │
-                         │ Browser / Mobile     │
-                         └──────────┬───────────┘
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │      FINORA AI       │
-                         │ React + TypeScript   │
-                         │ Tailwind CSS         │
-                         └──────────┬───────────┘
-                                    │
-              ┌─────────────────────┼─────────────────────┐
-              │                     │                     │
-              ▼                     ▼                     ▼
-       ┌─────────────┐       ┌─────────────┐       ┌─────────────┐
-       │  SUPABASE   │       │   GEMINI    │       │ APP LOGIC   │
-       │             │       │     AI      │       │ & ANALYTICS │
-       │ Auth        │       │             │       │             │
-       │ Services    │       │ AI Assist   │       │ Dashboard   │
-       └──────┬──────┘       └──────┬──────┘       └─────────────┘
-              │                     │
-              ▼                     ▼
-       ┌─────────────┐       ┌─────────────┐
-       │  Supabase   │       │ Google AI   │
-       │  Services   │       │   Gemini    │
-       └─────────────┘       └─────────────┘
-
-                         ┌──────────────┐
-                         │    VERCEL    │
-                         │  PRODUCTION  │
-                         └──────────────┘
-
-📂 Project Structure
-
+\`\`\`text
 Finora-AI/
 │
 ├── public/
-│   └── ...                     # Static assets
+│   ├── images/
+│   ├── icons/
+│   └── assets/
 │
 ├── src/
+│   │
 │   ├── components/
-│   │   └── ...                 # Reusable UI components
+│   │   ├── ui/
+│   │   └── ...
 │   │
 │   ├── integrations/
 │   │   └── supabase/
-│   │       └── ...             # Supabase integration & auth
+│   │       ├── client.ts
+│   │       └── types.ts
 │   │
 │   ├── lib/
-│   │   └── ...                 # Utilities & AI logic
+│   │   ├── AI utilities
+│   │   ├── financial utilities
+│   │   └── application helpers
 │   │
 │   ├── routes/
-│   │   └── ...                 # Application routes
+│   │   ├── login
+│   │   ├── signup
+│   │   ├── dashboard
+│   │   └── application routes
 │   │
-│   ├── styles.css              # Global styles
+│   ├── styles.css
 │   └── ...
 │
 ├── supabase/
-│   └── ...                     # Supabase configuration
+│   └── database configuration
+│
+├── .lovable/
 │
 ├── .env.example
 ├── .gitignore
+├── AGENTS.md
+├── components.json
+├── eslint.config.js
 ├── package.json
 ├── package-lock.json
-├── vite.config.ts
+├── bun.lock
 ├── tsconfig.json
-├── capacitor.config.ts
-└── README.md
+├── vite.config.ts
+└── README.md 
+---
 
-🛠️ Getting Started
+# ⚙️ Getting Started
 
-1️⃣ Clone the Repository
+Follow the steps below to run Finora AI locally.
 
+## 📋 Prerequisites
+
+Make sure the following tools are installed on your system:
+
+* Node.js 18+
+* npm
+* Git
+* A Supabase account
+* A Google AI Studio / Gemini API key
+
+Check your installed versions:
+
+```bash
+node --version
+npm --version
+git --version
+```
+
+---
+
+# 📥 Installation
+
+## 1. Clone the Repository
+
+```bash
 git clone https://github.com/sheema-sulthana/Finora-AI.git
+```
+
+Navigate into the project directory:
+
+```bash
 cd Finora-AI
+```
 
-2️⃣ Install Dependencies
+---
 
+## 2. Install Dependencies
+
+Install all required packages:
+
+```bash
 npm install
+```
 
-3️⃣ Configure Environment Variables
+---
 
-Create your local environment file from the example:
+## 3. Configure Environment Variables
 
-Windows PowerShell
+Create a `.env` file in the root directory of the project.
 
-Copy-Item .env.example .env
+You can use the provided `.env.example` file as a reference:
 
-macOS / Linux
-
+```bash
 cp .env.example .env
+```
 
-Configure:
+Then configure the required environment variables.
 
-SUPABASE_PROJECT_ID=
-SUPABASE_PUBLISHABLE_KEY=
-SUPABASE_URL=
+Example:
 
-VITE_SUPABASE_PROJECT_ID=
-VITE_SUPABASE_PUBLISHABLE_KEY=
-VITE_SUPABASE_URL=
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+GEMINI_API_KEY=your_gemini_api_key
+```
 
-GEMINI_API_KEY=
-GEMINI_MODEL=
-GEMINI_FALLBACK_MODEL=
+> ⚠️ Never commit your `.env` file or expose private API keys in the repository.
 
-🔒 Security Rules
+---
 
-Never commit .env.
+# 🗄️ Supabase Configuration
 
-Never commit:
+Finora AI uses Supabase for authentication and application data.
 
-API keys
-OAuth secrets
-Supabase service-role keys
-Access tokens
-Database passwords
-Private credentials
+## Create a Supabase Project
 
-▶️ Run Locally
+1. Create a project in Supabase.
+2. Copy the project URL.
+3. Copy the required public/anonymous API key.
+4. Add the credentials to your `.env` file.
+5. Configure authentication providers if required.
+6. Apply the required database configuration.
+
+The Supabase integration is located under:
+
+```text
+src/
+└── integrations/
+    └── supabase/
+```
+
+---
+
+# 🤖 Gemini AI Configuration
+
+Finora AI uses Google's Gemini AI capabilities for AI-powered financial assistance and analysis.
+
+## API Key Setup
+
+1. Create or obtain a Gemini API key.
+2. Add the key to your local environment configuration.
+3. Restart the development server after updating environment variables.
+
+Example:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+> 🔒 Keep API keys private and never commit them to GitHub.
+
+---
+
+# ▶️ Running the Application
 
 Start the development server:
 
+```bash
 npm run dev
+```
 
-Then open the URL shown in your terminal.
+The application will be available at the local development URL shown in your terminal.
 
-🏭 Production Build
+For example:
 
-Build the application:
+```text
+http://localhost:5173
+```
 
+---
+
+# 🏗️ Production Build
+
+Create a production build:
+
+```bash
 npm run build
+```
 
-Preview the production build:
+Preview the production build locally:
 
+```bash
 npm run preview
+```
 
-🧹 Code Quality
+---
 
-Run ESLint:
+# 🧪 Code Quality
 
+Run the project's linting checks:
+
+```bash
 npm run lint
+```
 
-Format the project:
+Before submitting changes, make sure the project builds successfully and does not contain linting errors.
 
-npm run format
+---
 
-Recommended verification:
+# 🔄 Application Workflow
 
-npm run lint
-npm run build
+The general Finora AI workflow can be represented as:
 
-🔐 Authentication
+```text
+                    ┌───────────────────┐
+                    │      User         │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ Authentication    │
+                    │ Supabase Auth     │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ Financial Data    │
+                    │ Transactions      │
+                    │ Income / Expenses │
+                    └─────────┬─────────┘
+                              │
+                ┌─────────────┴─────────────┐
+                │                           │
+                ▼                           ▼
+       ┌─────────────────┐        ┌─────────────────┐
+       │ Financial       │        │ Gemini AI       │
+       │ Analytics       │        │ Analysis        │
+       └────────┬────────┘        └────────┬────────┘
+                │                           │
+                └─────────────┬─────────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ Personalized      │
+                    │ Financial Insights│
+                    └───────────────────┘
+```
 
-Finora AI uses Supabase Auth with Google OAuth.
+---
 
-Authentication Flow
+# 🧩 Application Architecture
 
-        FINORA AI
-            │
-            ▼
-      Supabase Auth
-            │
-            ▼
-       Google OAuth
-            │
-            ▼
-      Google Account
-            │
-            ▼
-    Supabase Callback
-            │
-            ▼
-      Finora AI App
-            │
-            ▼
-         Dashboard
+Finora AI follows a modern frontend architecture where different parts of the application are separated based on their responsibilities.
 
-Production URL
+```text
+┌─────────────────────────────────────────────┐
+│                 User Interface              │
+│          React + TypeScript + UI            │
+└──────────────────────┬──────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────┐
+│              Application Layer              │
+│       Routes + Components + Hooks           │
+└──────────────────────┬──────────────────────┘
+                       │
+             ┌─────────┴─────────┐
+             ▼                   ▼
+┌─────────────────────┐  ┌─────────────────────┐
+│   Supabase Layer    │  │     AI Layer        │
+│                     │  │                     │
+│ Authentication      │  │ Google Gemini      │
+│ Database            │  │ AI Analysis        │
+│ User Data           │  │ AI Assistance      │
+└─────────────────────┘  └─────────────────────┘
+             │                   │
+             └─────────┬─────────┘
+                       ▼
+              ┌─────────────────┐
+              │ Financial       │
+              │ Insights        │
+              │ & Analytics     │
+              └─────────────────┘
+```
 
-https://finora-ai-tan.vercel.app
+---
 
-Production Redirect URL
+# 📊 Core Financial Modules
 
-https://finora-ai-tan.vercel.app/**
+Finora AI is organized around several major financial management areas.
 
-Local Redirect URL
+## 💵 Income Management
 
-http://localhost:8080/**
+Users can record and monitor income sources to understand their available financial resources.
 
-🤖 Gemini AI
+## 💸 Expense Management
 
-Finora AI uses Google's Gemini AI through:
+Users can record expenses and organize financial activity into meaningful categories.
 
-@google/genai
+## 📊 Analytics
 
-Configure:
+Financial information can be represented through charts and visual analytics to make spending patterns easier to understand.
 
-GEMINI_API_KEY=your_api_key
-GEMINI_MODEL=your_primary_model
-GEMINI_FALLBACK_MODEL=your_fallback_model
+## 🎯 Budget Monitoring
 
-Important
+Budget-related information can be used to understand spending performance and financial progress.
 
-Keep your API key private.
+## 🤖 AI Assistance
 
-If a credential is accidentally exposed:
+The AI layer provides a conversational interface for asking financial questions and obtaining personalized insights based on available financial information.
 
-Revoke the exposed credential.
+---
 
-Create a new credential.
+# 🖥️ User Interface
 
-Update your local .env.
+Finora AI focuses on providing a modern and accessible financial management experience.
 
-Update Vercel Environment Variables.
+### Main UI principles
 
-Redeploy.
+* Clean financial dashboard
+* Responsive layouts
+* Reusable components
+* Consistent typography
+* Interactive data visualization
+* Dark-themed fintech interface
+* Clear financial information hierarchy
+* Mobile-friendly design
 
-☁️ Deployment
+---
 
-Finora AI is deployed on Vercel.
+# 📸 Screenshots
 
-Production
+Screenshots of the application can be added here to showcase the main user experience.
 
+## Landing Page
 
+> Add your Finora AI landing-page screenshot here.
 
-Live URL:
+```text
+screenshots/
+└── landing-page.png
+```
+
+## Dashboard
+
+> Add your financial dashboard screenshot here.
+
+## AI Financial Assistant
+
+> Add your AI assistant screenshot here.
+
+## Analytics
+
+> Add your financial analytics screenshot here.
+
+### Recommended GitHub image format
+
+Once screenshots are added to the repository, you can display them using:
+
+```markdown
+![Finora AI Dashboard](./screenshots/dashboard.png)
+```
+
+---
+
+# 🌐 Live Demo
+
+Try the deployed application:
+
+**Live Application:**
 https://finora-ai-tan.vercel.app/
 
-Deployment Pipeline
+**Source Code:**
+https://github.com/sheema-sulthana/Finora-AI
 
-        CODE
-         │
-         ▼
-   Local Development
-         │
-         ▼
-    npm run build
-         │
-         ▼
-      Git Commit
-         │
-         ▼
-     GitHub main
-         │
-         ▼
-       Vercel
-         │
-         ▼
-   🚀 PRODUCTION
+---
 
-Push changes:
+# 🔐 Security & Privacy
 
+Finora AI is designed with security and privacy considerations in mind.
+
+### Security practices
+
+* Authentication is handled through Supabase.
+* Sensitive environment variables are stored outside the source code.
+* API keys should not be committed to GitHub.
+* User-specific data should be protected through appropriate authentication and database access policies.
+* `.env` files are excluded from version control.
+
+### Important
+
+Finora AI is a software project intended for financial organization and educational purposes.
+
+It does **not** replace professional financial, investment, tax, or legal advice.
+
+Users should independently verify important financial decisions.
+
+---
+
+# ⚠️ Limitations
+
+Finora AI is an evolving project and may have limitations depending on the current implementation.
+
+Potential limitations include:
+
+* AI-generated financial suggestions may not always be accurate.
+* Financial analysis depends on the quality of the data provided by the user.
+* External AI services may require an active API key.
+* Supabase services require appropriate project configuration.
+* Uploaded financial documents may require additional processing depending on their format and structure.
+* The application should not be treated as a replacement for professional financial advice.
+
+---
+
+# 🚧 Future Improvements
+
+The following features can be considered for future versions of Finora AI:
+
+### 📱 Mobile Application
+
+Develop dedicated Android and iOS applications for easier access.
+
+### 🏦 Financial Account Integration
+
+Integrate supported financial data providers to reduce manual transaction entry.
+
+### 💳 Payment History Import
+
+Support importing transaction histories from supported payment and banking platforms where technically and legally appropriate.
+
+### 🧾 Advanced Receipt Processing
+
+Improve receipt and financial-document processing using OCR and AI.
+
+### 🔔 Smart Notifications
+
+Introduce notifications for:
+
+* Budget limits
+* Unusual spending
+* Upcoming payments
+* Saving goals
+* Subscription renewals
+
+### 🎯 Financial Goals
+
+Allow users to create and track goals such as:
+
+* Emergency funds
+* Education
+* Travel
+* Major purchases
+* Monthly savings targets
+
+### 📈 Advanced AI Analytics
+
+Expand AI capabilities to identify:
+
+* Spending trends
+* Recurring expenses
+* Potential savings opportunities
+* Budget deviations
+* Financial behavior patterns
+
+### 🌍 Multi-Language Support
+
+Add support for multiple languages to make the platform accessible to a wider audience.
+
+---
+
+# 🗺️ Roadmap
+
+```text
+[x] Authentication
+[x] Financial dashboard
+[x] Income and expense tracking
+[x] Financial analytics
+[x] AI financial assistance
+[x] Responsive interface
+
+[ ] Advanced financial goals
+[ ] Smart notifications
+[ ] Advanced receipt/OCR processing
+[ ] More financial integrations
+[ ] Mobile application
+[ ] Multi-language support
+```
+
+> The roadmap may change as the project evolves.
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+## Fork the Repository
+
+Create your own fork of the project.
+
+## Clone Your Fork
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Finora-AI.git
+```
+
+## Create a Branch
+
+```bash
+git checkout -b feature/your-feature
+```
+
+## Make Your Changes
+
+Implement your feature or improvement and test it locally.
+
+## Commit Your Changes
+
+```bash
 git add .
-git commit -m "Update application"
-git push origin main
+git commit -m "Add: your feature"
+```
 
-🎯 Who is Finora AI For?
+## Push Your Branch
 
-🎓 Students
+```bash
+git push origin feature/your-feature
+```
 
-Understand spending and manage everyday expenses.
+Then open a Pull Request on GitHub.
 
-💼 Employees
+---
 
-Keep track of income and personal spending.
+# 🐛 Reporting Issues
 
-💻 Freelancers
+If you find a bug or have a feature suggestion, open an issue in the GitHub repository.
 
-Maintain a clearer view of flexible financial activity.
+When reporting an issue, include:
 
-🏠 Individuals & Families
+* Description of the problem
+* Steps to reproduce it
+* Expected behavior
+* Actual behavior
+* Screenshots or error messages
+* Browser/environment information when relevant
 
-Centralize financial information and understand spending patterns.
+---
 
-🤖 AI-Assisted Users
+# 📄 License
 
-Ask finance-related questions using natural language.
+This project is currently available for educational and development purposes.
 
-💎 What Makes the Project Interesting?
+If you intend to publish Finora AI as an open-source project, add an appropriate license such as MIT and include the corresponding `LICENSE` file in the repository.
 
-01 — AI + Finance
+---
 
-Combines financial management with generative AI.
+# 👩‍💻 Author
 
-02 — Modern Full-Stack Architecture
+### Sheema Sulthana
 
-Built using modern React and TanStack technologies with Supabase services.
+BTech Student | Artificial Intelligence
 
-03 — Real Authentication
+**GitHub:**
+https://github.com/sheema-sulthana
 
-Google OAuth and Supabase authentication are integrated into the production application.
+---
 
-04 — Production Deployed
+# ⭐ Support the Project
 
-The application is not only a local prototype — it is deployed and accessible through a live production URL.
-
-05 — Designed for Expansion
-
-The architecture can evolve toward deeper analytics, budgeting, financial goals, and personalized AI experiences.
-
-🗺️ Roadmap
-
-             NOW                         NEXT                       LATER
-
-        ┌─────────────┐           ┌─────────────┐           ┌─────────────┐
-        │   Finora    │           │  Advanced   │           │  Financial  │
-        │     AI      │ ────────► │  Analytics  │ ────────► │ Intelligence│
-        └─────────────┘           └─────────────┘           └─────────────┘
-              │                         │                         │
-              ▼                         ▼                         ▼
-        Authentication             Budgeting                Automation
-        Dashboard                  Goals                    Predictions
-        AI Assistant               Reports                  Personalization
-        Analytics                  Insights                 Integrations
-
-🧪 Development Workflow
-
-┌─────────────────────────┐
-│ 1. Develop Feature      │
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│ 2. Test Locally         │
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│ 3. Run Lint             │
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│ 4. Run Production Build │
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│ 5. Commit               │
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│ 6. Push to GitHub       │
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│ 7. Vercel Deployment    │
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│ 8. Test Production      │
-└─────────────────────────┘
-
-🐛 Troubleshooting
-
-Dependency Error
-
-npm install
-
-Then verify:
-
-npm run build
-
-Build Error
-
-npm run build
-
-Read the first actual error rather than only the final summary.
-
-Environment Variable Error
-
-Check:
-
-.env exists locally.
-
-Variable names match .env.example.
-
-Development server was restarted.
-
-Vercel environment variables are configured.
-
-Secrets were not incorrectly prefixed with VITE_.
-
-Google Login Error
-
-Check:
-
-Supabase → Authentication → URL Configuration
-
-Production Site URL
-
-Production Redirect URL
-
-Local Redirect URL
-
-Supabase Google provider
-
-Google Client ID
-
-Google Client Secret
-
-Google OAuth callback URL
-
-📊 Project Status
-
-<div align="center">
-
-🟢 LIVE & PRODUCTION READY
-
-Component
-
-Status
-
-🌐 Web Application
-
-🟢 Live
-
-🚀 Vercel Deployment
-
-🟢 Active
-
-🔐 Supabase Authentication
-
-🟢 Working
-
-🔵 Google OAuth
-
-🟢 Working
-
-📊 Dashboard
-
-🟢 Available
-
-🤖 Gemini AI
-
-🟢 Integrated
-
-💻 GitHub Repository
-
-🟢 Active
-
-</div>
-
-🌐 Important Links
-
-<div align="center">
-
-🚀 Live Demo
-
-OPEN FINORA AI →
-
-💻 GitHub
-
-VIEW SOURCE CODE →
-
-</div>
-
-👨‍💻 Author
-
-Kamil Ahamed SK
-
-B.Tech — Computer Science & Engineering (Artificial Intelligence)
-
-Finora AI is developed as an AI-focused financial technology project combining:
-
-React · TypeScript · TanStack Start · Supabase · Gemini AI · Tailwind CSS · Vercel
-
-⭐ Support the Project
-
-If you find Finora AI interesting:
+If you find Finora AI useful or interesting:
 
 ⭐ Star the repository
 🍴 Fork the project
-🐛 Report bugs
+🐛 Report issues
 💡 Suggest improvements
-🔧 Contribute features
-📢 Share the project
+🤝 Contribute to the project
 
-⚠️ Disclaimer
+---
 
-Finora AI is an AI-assisted financial management application intended for informational and organizational purposes.
+# 💡 Project Vision
 
-AI-generated information may be incomplete or incorrect. Important financial information should be independently verified, and users should consult qualified financial professionals when appropriate.
+> **"Making personal finance simpler, smarter, and more understandable through AI."**
 
-Finora AI does not replace professional financial, investment, tax, legal, or accounting advice.
+Finora AI aims to bring financial tracking, analytics, and intelligent assistance together in one accessible platform.
 
-<div align="center">
+---
 
-💎 Finora AI
+## 🔗 Project Links
 
-Manage Your Money Smarter with AI.
+| Resource             | Link                                         |
+| -------------------- | -------------------------------------------- |
+| 🌐 Live Application  | https://finora-ai-tan.vercel.app/            |
+| 💻 GitHub Repository | https://github.com/sheema-sulthana/Finora-AI |
+| 👩‍💻 Developer      | https://github.com/sheema-sulthana           |
 
-<br>
+---
 
-🚀 Live Demo • 💻 GitHub
-
-<br>
-
-Built with ❤️ using React, TypeScript, TanStack, Supabase, Gemini AI & Vercel
-
-</div>
+<p align="center">
+  Made with ❤️ using React, TypeScript, Supabase & Google Gemini AI
+</p>
